@@ -1,0 +1,156 @@
+:root {
+  --color-js1: #ceddec;
+  --color-js2: #ceddec;
+}
+
+* {
+  color: 	#ceddec;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.wrapper {
+  display: flex;
+  min-height: 932px;
+}
+
+.bar_menu {
+  width: 320px;
+  height: 100%;
+  background-color: #262833;
+  padding: 30px;
+  position: fixed;
+  z-index: 2;
+}
+
+.name_site {
+  font-size: 25px;
+  cursor: pointer;
+  width: 150px;
+}
+
+.name_site:hover {
+  background: -webkit-linear-gradient(left, var(--color-js1), var(--color-js2));
+  background: -moz-linear-gradient(left, var(--color-js1), var(--color-js2));
+  background: linear-gradient(to right, var(--color-js1), var(--color-js2));
+  color: transparent;
+  -webkit-background-clip: text;
+  -webkit-background-clip: text;
+  background-clip: text;
+  transition: color .2s ease-out;
+}
+
+.content {
+  width: 100%;
+  background: #fff;
+  position: fixed;
+  height: 100%;
+  margin-left: 150px;
+  z-index: 1;
+}
+
+.container_style {
+  margin-top: 45px;
+}
+
+.style_title, .direction_title, .output_title {
+  font-size: 14px;
+}
+
+.container_direction {
+  margin-top: 30px;
+}
+
+.container_button_direction {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  grid-column-gap: 10px;
+  grid-row-gap: 10px;
+}
+
+.btn_direction {
+  width: 80px;
+  height: 30px;
+}
+
+#icn {
+  fill: #ceddec;
+  position: relative;
+  top: -5px;
+}
+
+
+.container_colors {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-top: 25px;
+  flex-direction: column;
+}
+
+.colors {
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+}
+
+.form_color.form-control.form-control-color{
+  width: 80px;
+  height: 32px;
+  padding: 1px;
+  background: #2e2e2e;
+  border: none;
+}
+
+.btn-outline-secondary {
+  width: 80px;
+  height: 32px;
+}
+
+.btn.btn-outline-secondary {
+  font-size: 14px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+
+.container_output {
+  margin-top: 25px;
+}
+
+.btn_output {
+  width: 80px;
+}
+
+.container_getcode {
+  margin-top: 25px;
+}
+
+.btn-primary {
+  height: 50px;
+}
+
+
+@media (max-width: 425px) {
+  .wrapper {
+    display: flex;
+    flex-direction: column;
+    background-color: #262833;
+  }
+  .bar_menu {
+    position: relative;
+    height: 768px;
+  }
+  .content {
+    position: relative;
+    margin: 0;
+    height: 400px;
+  }
+}

@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>CSS Gradient</title>
+  <link rel="stylesheet" href="style/style.css" />
+  <link rel="stylesheet" href="style/bootstrap.css">
+</head>
+
+<body>
+  <div class="wrapper">
+    <div class="bar_menu">
+      <h1 class="name_site fw-bold">CSS<br>GRADIENT<br>GENERATOR</h1>
+
+      <div class="container_style">
+
+        <p class="style_title fw-semibold mb-1">Style</p>
+
+        <div class="btn-group" role="group" aria-label="Basic radio toggle button group">
+          <input type="radio" class="btn-check" name="group_1" id="btnradio1" autocomplete="off" checked />
+          <label data-style="linear" class="style_btn_js btn btn-outline-primary fw-semibold" for="btnradio1">Linear</label>
+
+          <input type="radio" class="btn-check" name="group_1" id="btnradio2" autocomplete="off" />
+          <label data-style="radial" class="style_btn_js btn btn-outline-primary fw-semibold" for="btnradio2">Radial</label>
+
+          <input type="radio" class="btn-check" name="group_1" id="btnradio3" autocomplete="off" />
+          <label data-style="conic" class="style_btn_js btn btn-outline-primary fw-semibold" for="btnradio3">Conic</label>
+        </div>
+      </div>
+
+      <div class="container_direction">
+
+        <p class="direction_title fw-semibold mb-1">Direction</p>
+
+        <div class="container_button_direction">
+          <input type="radio" class="btn-check" name="group_2" id="btnradio4" autocomplete="off">
+          <label data-deg="315" data-radial="at left top" class="btn_direction btn btn-outline-primary" for="btnradio4">
+            <svg id="icn" width="10" height="10"><path d="M.557 1.208a.692.692 0 0 1 .651-.651L6.886.178a.776.776 0 0 1 .811.682.691.691 0 0 1-.643.78l-4.129.275 6.292 6.292c.293.293.305.757.026 1.036-.28.279-.743.267-1.036-.026L1.915 2.925 1.64 7.054a.691.691 0 0 1-.78.643.776.776 0 0 1-.682-.811l.379-5.678z"></path></svg>
+          </label>
+
+          <input type="radio" class="btn-check" name="group_2" id="btnradio5" autocomplete="off" checked="">
+          <label data-deg="0" data-radial="at center top" class="btn_direction btn btn-outline-primary" for="btnradio5">
+            <svg id="icn" width="10" height="12"><path d="M4.54.177a.692.692 0 0 1 .92 0l4.283 3.747a.776.776 0 0 1 .091 1.056.691.691 0 0 1-1.006.096L5.714 2.351v8.899c0 .414-.32.75-.714.75-.394 0-.714-.336-.714-.75V2.351L1.172 5.076A.691.691 0 0 1 .166 4.98a.776.776 0 0 1 .091-1.056L4.539.177z"></path></svg>
+          </label>
+
+          <input type="radio" class="btn-check" name="group_2" id="btnradio6" autocomplete="off">
+          <label data-deg="45" data-radial="at right top" class="btn_direction btn btn-outline-primary" for="btnradio6">
+            <svg id="icn" width="10" height="10"><path d="M8.792.557a.692.692 0 0 1 .651.651l.379 5.678a.776.776 0 0 1-.682.811.691.691 0 0 1-.78-.643l-.275-4.129-6.292 6.292c-.293.293-.757.305-1.036.026C.478 8.963.49 8.5.783 8.207l6.292-6.292-4.129-.275a.691.691 0 0 1-.643-.78.776.776 0 0 1 .811-.682l5.678.379z"></path></svg>
+          </label>
+
+          <input type="radio" class="btn-check" name="group_2" id="btnradio7" autocomplete="off">
+          <label data-deg="270" data-radial="at left center" class="btn_direction btn btn-outline-primary" for="btnradio7">
+            <svg id="icn" width="12" height="10"><path d="M.177 5.46a.692.692 0 0 1 0-.92L3.924.256A.776.776 0 0 1 4.98.166a.691.691 0 0 1 .096 1.006L2.351 4.286h8.899c.414 0 .75.32.75.714 0 .394-.336.714-.75.714H2.351l2.725 3.114a.691.691 0 0 1-.096 1.006.776.776 0 0 1-1.056-.091L.177 5.461z"></path></svg>
+          </label>
+
+          <input type="radio" class="btn-check" name="group_2" id="btnradio8" autocomplete="off">
+          <label data-deg="315" data-radial="at center center" class="btn_direction btn btn-outline-primary hide" for="btnradio8">
+            <svg id="icn" width="12" height="11"><circle stroke="#ceddec" stroke-width="1.46" cx="5.5" cy="5.5" r="4.5" fill="none" fill-rule="evenodd"></circle></svg>
+          </label>
+
+          <input type="radio" class="btn-check" name="group_2" id="btnradio9" autocomplete="off">
+          <label data-deg="90" data-radial="at right center" class="btn_direction btn btn-outline-primary" for="btnradio9">
+            <svg id="icn" width="12" height="10"><path d="M11.823 4.54a.692.692 0 0 1 0 .92L8.076 9.744a.776.776 0 0 1-1.056.091.691.691 0 0 1-.096-1.006l2.725-3.114H.75C.336 5.714 0 5.394 0 5c0-.394.336-.714.75-.714h8.899L6.924 1.172A.691.691 0 0 1 7.02.166a.776.776 0 0 1 1.056.091l3.747 4.282z"></path></svg>
+          </label>
+
+          <input type="radio" class="btn-check" name="group_2" id="btnradio10" autocomplete="off">
+          <label data-deg="225" data-radial="at left bottom" class="btn_direction btn btn-outline-primary" for="btnradio10">
+            <svg id="icn" width="10" height="10"><path d="M1.208 9.443a.692.692 0 0 1-.651-.651L.178 3.114a.776.776 0 0 1 .682-.811.691.691 0 0 1 .78.643l.275 4.129L8.207.783C8.5.49 8.964.478 9.243.757c.279.28.267.743-.026 1.036L2.925 8.085l4.129.275a.69.69 0 0 1 .643.78.776.776 0 0 1-.811.682l-5.678-.379z"></path></svg>
+          </label>
+
+          <input type="radio" class="btn-check" name="group_2" id="btnradio11" autocomplete="off">
+          <label data-deg="180" data-radial="at center bottom" class="btn_direction btn btn-outline-primary" for="btnradio11">
+            <svg id="icn" width="10" height="12"><path d="M5.46 11.823a.692.692 0 0 1-.92 0L.256 8.076a.776.776 0 0 1-.09-1.056.691.691 0 0 1 1.006-.096l3.114 2.725V.75c0-.414.32-.75.714-.75.394 0 .714.336.714.75v8.899l3.114-2.725a.691.691 0 0 1 1.006.096.776.776 0 0 1-.091 1.056l-4.282 3.747z"></path></svg>
+          </label>
+
+          <input type="radio" class="btn-check" name="group_2" id="btnradio12" autocomplete="off">
+          <label data-deg="135" data-radial="at right bottom" class="btn_direction btn btn-outline-primary" for="btnradio12">
+            <svg id="icn" width="10" height="10"><path d="M9.443 8.792a.692.692 0 0 1-.651.651l-5.678.379a.776.776 0 0 1-.811-.682.691.691 0 0 1 .643-.78l4.129-.275L.783 1.793C.49 1.5.478 1.036.757.757 1.037.478 1.5.49 1.793.783l6.292 6.292.275-4.129a.691.691 0 0 1 .78-.643c.403.046.709.41.682.811l-.379 5.678z"></path></svg>
+          </label>
+        </div>
+
+      </div>
+
+      <div class="container_colors">
+
+        <p class="colors_title fw-semibold mb-1">Colors</p>
+
+        <div class="colors">
+          <input oninput="inputColor()" type="color" class="form_color form-control form-control-color" id="input_color_1" value="#ffffff">
+          <input oninput="inputColor()" type="color" class="form_color form-control form-control-color" id="input_color_2" value="#ffffff">
+
+          <button onclick="randomColor()" type="button" class="btn btn-outline-secondary fw-semibold">Random</button>
+        </div>
+
+      </div>
+
+      <div class="container_output">
+
+        <p class="output_title fw-semibold mb-1">Output format</p>
+
+        <div class="btn-group_3">
+          <input type="radio" class="btn-check" name="group_3" id="btnradio13" autocomplete="off" checked />
+          <label class="btn_output btn btn-outline-primary fw-semibold" for="btnradio13">Hex</label>
+        </div>
+
+      </div>
+
+      <div class="d-grid gap-2 container_getcode">
+        <button style="font-size: 14px;" class="btn btn-primary fw-semibold" type="button">Get CSS</button>
+
+        <p style="margin-top: 25px;">Completed by a: <a href="https://github.com/WebNoobJun">https://github.com/WebNoobJun</a></p>
+      </div>
+    </div>
+
+    <div class="content"></div>
+  </div>
+  <script src="js/main.js"></script>
+</body>
+
+</html>
