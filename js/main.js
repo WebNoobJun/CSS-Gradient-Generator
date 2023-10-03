@@ -73,10 +73,10 @@ document.querySelector('.btn-primary').onclick = function(){
   var clipboard = navigator.clipboard;
 
   if(styleGradient == 'linear'){
-    clipboard.writeText(`background: ${inputColor1.value};` + '\n' + `background: ${styleGradient}-gradient(${deg}deg, ${inputColor1.value}, ${inputColor2.value};`)
+    clipboard.writeText(`background: ${inputColor1.value};` + '\n' + `background: ${styleGradient}-gradient(${deg}deg, ${inputColor1.value}, ${inputColor2.value});`)
   }
   if(styleGradient == 'radial'){
-    clipboard.writeText(`background: ${inputColor1.value};` + '\n' + `background: ${styleGradient}-gradient(${radial}, ${inputColor1.value}, ${inputColor2.value};`)
+    clipboard.writeText(`background: ${inputColor1.value};` + '\n' + `background: ${styleGradient}-gradient(${radial}, ${inputColor1.value}, ${inputColor2.value});`)
   }
   if(styleGradient == 'conic'){
     clipboard.writeText(`background: ${inputColor1.value};` + '\n' + `background: ${styleGradient}-gradient(from ${deg}deg, ${inputColor1.value}, ${inputColor2.value});`)
